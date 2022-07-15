@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parkimovil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h2>Parkimovil Prueba Técnica</h2>
+        </div>
+        <div class="file-container">
+            <div class="file">
+                <input type="file" name="file" id="file">
+                <textarea name="" id="coords" cols="30" rows="10"></textarea>
+                <button type="submit" onchange="chargeData()" id="send"> Send </button>
+            </div>
+            <div class="result">
+                <p>Archipielagos found: </p>
+                <p id="result"> 0 </p>
+            </div>
+        </div>
+    </div>
+    <!-- <footer class="footer">
+        <p>Ricardo Emmanuel García Cruz 2022</p>
+    </footer> -->
+
+    <script src="./index.js"></script>
+</body>
+</html>
